@@ -1,0 +1,52 @@
+body {
+    margin:0;    
+    place-content: center;
+    font-family: system-ui;
+    display: grid;
+    min-height: 100vh;;
+}
+
+.divLogin {
+    background-color: rgba(0, 0, 0, 0.308);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+.divLogin input {
+    border: none;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+.divLogin button {
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.rightMargin{
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.input-container {
+    text-align: right;
+}
+
+.principalIcon {
+    background-color: #D7DBDD;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
